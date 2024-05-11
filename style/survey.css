@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #c62828;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 30px;
+  width: auto;
+  background-color: rgba(237, 230, 230, 0.25);
+  margin-bottom: 10px;
+}
+
+/*this is for the header*/
+.head h1 {
+  font-weight: bolder;
+  text-align: center;
+  color: #03013e;
+  text-transform: uppercase;
+}
+
+/*this is where the form styling start*/
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  margin: 5px;
+}
+
+.name {
+  width: 50%;
+  height: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding: 20px;
+  margin: 5px;
+}
+
+.option {
+  width: 50%;
+  height: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding: 5px;
+  margin: 5px;
+}
+
+.te {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding: 20px;
+}
+
+.bt {
+  width: 90%;
+  height: 7vh;
+  background-color: #03013e;
+  color: #c62828;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.ip {
+  margin: 5px;
+}
+
+input[type="checkbox"] {
+  accent-color: blue;
+}
+
+input[type="radio"] {
+  accent-color: blue;
+  width: 2em;
+  height: 1rem;
+}
